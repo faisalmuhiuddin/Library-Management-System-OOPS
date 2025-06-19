@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Library Management System",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-Wall",
+        "-Wextra",
+        "-g3",
+        "main.cpp",
+        "book.cpp",
+        "member.cpp",
+        "library.cpp",
+        "-o",
+        "output/main.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
